@@ -112,7 +112,7 @@ class RenteCaculator extends Component{
         let results = [] 
         let labels = []
         for (let i = 1; i < H + 1; i++) {
-            let value = S * Math.pow((1 + A), i)
+            let value = S * Math.pow((1 + (A/100)), i)
 
             results.push(value)
             labels.push(i.toString()+ " år")

@@ -57,7 +57,7 @@ class Graph extends Component{
         console.log(data)
         return(
             <div>
-            <Line ref="chart" height={5} width={10} data={data} />
+            <Line style="margin: 20%;" ref="chart" height={2} width={4} data={data} />
             </div>
         )
     }
